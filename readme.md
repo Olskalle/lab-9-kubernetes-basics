@@ -1,3 +1,6 @@
+# Зольников В.В., ФИТ-2024-НМ. ЛР 9
+
+# Подготовка
 Устанавливаем kubectl и minikube:
 
 ![Pasted image 20251213181350.png](attachments/Pasted%20image%2020251213181350.png)
@@ -131,6 +134,9 @@ olskalle@olskalle:~$ sudo reboot
 
 ![Pasted image 20251213204741.png](attachments/Pasted%20image%2020251213204741.png)
 
+## Веб-приложение
+
+Описываем манифесты для ресурсов приложения и Redis.
 Собираем образ:
 
 ![Pasted image 20251213205427.png](attachments/Pasted%20image%2020251213205427.png)
@@ -150,6 +156,8 @@ olskalle@olskalle:~$ sudo reboot
 ![Pasted image 20251214003031.png](attachments/Pasted%20image%2020251214003031.png)
 
 ![Pasted image 20251214003042.png](attachments/Pasted%20image%2020251214003042.png)
+
+## Применение обновления
 
 Добавим в сообщение приложения `v.1.0.2` и обновим. Собираем образ и загружаем его:
 
